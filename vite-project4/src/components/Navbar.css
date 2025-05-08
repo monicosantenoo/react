@@ -1,0 +1,17 @@
+body{
+    background-color: rgb(13, 203, 140);
+    
+}
+
+nav{
+    display: flex;
+    background-color: rebeccapurple;
+    padding: 2rem;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    gap: 23px;
+    align-items: center;
+}

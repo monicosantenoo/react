@@ -1,0 +1,13 @@
+p{
+    color: crimson;
+    text-align: center;
+}
+.footer{
+position: fixed;
+bottom: 0;
+text-align: center;
+background-color: black;
+color: cornsilk;
+width: 100%;
+padding: 1.5rem;
+}

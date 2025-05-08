@@ -1,10 +1,8 @@
-
+ import Neend from "./Nend"
 function App() {
   
- return( <h1> hello world | hello with vite </h1>
-   
-
-
+ return(
+    <Neend/>
  )
 }
 
