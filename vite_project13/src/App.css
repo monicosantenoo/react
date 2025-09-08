@@ -1,0 +1,29 @@
+/* common styles */
+.app {
+  text-align: center;
+  padding: 50px;
+  transition: all 0.3s ease-in-out;
+}
+
+/* light theme */
+.app.light {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+/* dark theme */
+.app.dark {
+  background-color: #121212;
+  color: #ffffff;
+}
+
+button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 8px;
+  background: #4cafef;
+  color: white;
+  font-size: 16px;
+}

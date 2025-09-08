@@ -1,14 +1,22 @@
 import react from 'react'
 import './App.css'
-
+import Keyws from './Keyws'
+import Userard from './Userard'
+import Carde from './Carde'
+import Funcone from './funcone'
+import Compui from './Compui'
+import Classone from './Classone'
+import Counterap from './Counterap'
+import Usehook from './Usehook'
+import Theme from './Theme'
 function App() {
 return(
-<>
-<ol>
-  <li>react is a popular library</li>
-  <li> react is most powerfull framework</li>
-  <li> i am more react likely to get a job a front and devloper </li>
-</ol>
+<> 
+{/* <Classone></Classone>
+<Funcone></Funcone>
+<Counterap title = "hohoho" ></Counterap> */}
+{/* <Usehook></Usehook> */}
+<Theme></Theme>
 </>
 )
 }
