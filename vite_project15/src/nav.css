@@ -1,0 +1,87 @@
+/* Reset some defaults */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+/* Navbar container */
+nav {
+  width: 100%;
+  background: #222;
+  color: white;
+  padding: 10px 20px;
+}
+
+/* Flexbox layout */
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Logo */
+.logo h1 {
+  font-size: 22px;
+  color: #fff;
+  cursor: pointer;
+}
+
+/* Links section */
+.links {
+  display: flex;
+  gap: 20px;
+}
+
+.links a {
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+  transition: color 0.3s ease;
+}
+
+.links a:hover {
+  color: #00bcd4; /* cyan accent */
+}
+
+/* Right side (search + buttons) */
+.left {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+/* Search input */
+.left input {
+  padding: 6px 10px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+}
+
+/* Buttons */
+.left button {
+  padding: 6px 12px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  background: #00bcd4;
+  color: white;
+  transition: background 0.3s ease;
+}
+
+.left button:hover {
+  background: #0097a7;
+}
+
+/* Dark mode toggle button (🌙) */
+.left button:last-child {
+  background: transparent;
+  color: white;
+  font-size: 18px;
+}
+
+.left button:last-child:hover {
+  background: #333;
+}
