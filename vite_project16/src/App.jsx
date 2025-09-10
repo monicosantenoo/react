@@ -10,6 +10,11 @@ import Shoppincart from './usetatehook/Shoppincart'
 import Runevrenr from './useEffect/Runevrenr'
 import Whenstatechng from './useEffect/Whenstatechng'
 import Useapi from './useEffect/Useapi'
+import Intervals from './useEffect/Intervals'
+import Dupdate from './useEffect/Dupdate'
+import Cleanmu from './useEffect/Cleanmu'
+import Drell from './propdr/Drell'
+import Soldrell from './propdr/solDrell'
 function App() {
   
 
@@ -24,7 +29,12 @@ function App() {
     {/* <Shoppincart/> */}
     {/* <Runevrenr/> */}
     {/* <Whenstatechng/> */}
-    <Useapi/>
+    {/* <Useapi/> */}
+    {/* <Intervals/> */}
+    {/* <Dupdate/> */}
+    {/* <Cleanmu/> */}
+    {/* <Drell/> */}
+    <Soldrell/>
    </>
   )
 }
