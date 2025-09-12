@@ -15,6 +15,8 @@ import Dupdate from './useEffect/Dupdate'
 import Cleanmu from './useEffect/Cleanmu'
 import Drell from './propdr/Drell'
 import Soldrell from './propdr/solDrell'
+import Memre from './usememo/Memre'
+import Collback from './usecallback/collback'
 function App() {
   
 
@@ -34,7 +36,9 @@ function App() {
     {/* <Dupdate/> */}
     {/* <Cleanmu/> */}
     {/* <Drell/> */}
-    <Soldrell/>
+    {/* <Soldrell/> */}
+    {/* <Memre/> */}
+    <Collback/>
    </>
   )
 }
