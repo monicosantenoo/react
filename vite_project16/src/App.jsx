@@ -17,6 +17,9 @@ import Drell from './propdr/Drell'
 import Soldrell from './propdr/solDrell'
 import Memre from './usememo/Memre'
 import Collback from './usecallback/collback'
+import Domm from './usereff/Domm'
+import Count from './usereff/Count'
+import Previous from './usereff/Previous'
 function App() {
   
 
@@ -38,7 +41,10 @@ function App() {
     {/* <Drell/> */}
     {/* <Soldrell/> */}
     {/* <Memre/> */}
-    <Collback/>
+    {/* <Collback/> */}
+    {/* <Domm/> */}
+    {/* <Count/> */}
+    <Previous/>
    </>
   )
 }
